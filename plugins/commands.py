@@ -14,7 +14,6 @@ async def start(bot, message):
     buttons = [[
         InlineKeyboardButton('Cari disini', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Inline mode', switch_inline_query=''),
-        InlineKeyboardButton('Lihat Channel', switch_to_channel='@MalingIT'),
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(START_MSG, reply_markup=reply_markup)

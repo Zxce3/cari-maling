@@ -61,7 +61,6 @@ def get_reply_markup(username):
     buttons = [[
         InlineKeyboardButton('Cari Lagi', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Bagikan Bot', url=url),
-        InlineKeyboardButton('Lihat Channel', switch_to_channel='@MalingIT'),
     ]]
     return InlineKeyboardMarkup(buttons)
 
