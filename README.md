@@ -1,4 +1,5 @@
 # Cari Maling
+Telegram Channel [@malingIT](https://t.me/malingIT)
 
 * Index channel/group files for inline search.
 * When you going to post file on telegram channel/group this bot will save that in database, So you can search that easily in inline mode.
