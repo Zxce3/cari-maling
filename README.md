@@ -1,4 +1,13 @@
 # Cari Maling
+
+  <a href="https://github.com/Zxce3/cari-maling"><img src="https://img.shields.io/github/stars/Zxce3/cari-maling?style=social"></a>
+  <a href="https://github.com/Zxce3/cari-maling/blob/cari-maling/LICENSE"><img src="https://img.shields.io/github/license/Zxce3/cari-maling?&style=social&logo=github"></a>
+
+![VIEWS](https://komarev.com/ghpvc/?username=zxce3)
+![Repo Size](https://img.shields.io/github/repo-size/Zxce3/cari-maling?&style=plastic&logo=github)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zxce3/cari-maling?&style=plastic&logo=github)](https://github.com/Zxce3/cari-maling/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/Zxce3/cari-maling?&style=plastic&logo=github)](https://GitHub.com/Zxce3/cari-maling/graphs/contributors/)
+
 Telegram Channel [@malingIT](https://t.me/malingIT)
 
 * Index channel/group files for inline search.
