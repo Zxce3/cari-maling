@@ -2,7 +2,7 @@ from urllib.parse import quote
 from pyrogram import Client, emoji, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultCachedDocument
 from utils import get_search_results
-from info import MAX_RESULTS, CACHE_TIME, SHARE_BUTTON_TEXT, AUTH_USERS
+from info import MAX_RESULTS, CACHE_TIME, SHARE_BUTTON_TEXT, AUTH_USERS, CHANNEL_LINK
 
 
 @Client.on_inline_query(filters.user(AUTH_USERS) if AUTH_USERS else None)
@@ -58,7 +58,7 @@ async def answer(bot, query):
 
 def get_reply_markup(username):
     url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT.format(username=username))
-    chan = 't.me/malingIT'
+    chan = CHANNEL_LINK
     buttons = [[
         InlineKeyboardButton('Cari Lagi', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Bagikan Bot', url=url),
