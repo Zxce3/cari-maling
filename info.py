@@ -23,7 +23,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 DATABASE_URI = environ['DATABASE_URI']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
+CHANNEL_LINK = 't.me/malingIT'
 # Messages
 START_MSG = """
 **Halo, Saya bot pencarian Channel @MalingIT**
