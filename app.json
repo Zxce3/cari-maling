@@ -31,6 +31,11 @@
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "value": ""
         },
+        "CHANNEL_LINK": {
+            "description": "Your channel username eg @username without '@' just username."
+            "value": "",
+            "required": true
+        },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "value": ""
