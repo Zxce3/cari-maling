@@ -32,7 +32,7 @@
             "value": ""
         },
         "CHANNEL_LINK": {
-            "description": "Your channel username eg @username without '@' just username."
+            "description": "Your channel username eg @username without '@' just username.",
             "value": "",
             "required": true
         },
