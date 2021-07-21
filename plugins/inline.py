@@ -58,13 +58,13 @@ async def answer(bot, query):
 
 def get_reply_markup(username):
     url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT.format(username=username))
-    chan = CHANNEL_LINK
+    link = 't.me/' + CHANNEL_LINK
     buttons = [[
         InlineKeyboardButton('Cari Lagi', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Bagikan Bot', url=url),
     ],
     [
-    InlineKeyboardButton('Join Channel', url=chan),
+    InlineKeyboardButton('Join Channel', url=link),
     ]]
     return InlineKeyboardMarkup(buttons)
 
