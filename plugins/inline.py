@@ -63,9 +63,9 @@ def get_reply_markup(username):
         InlineKeyboardButton('Cari Lagi', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Bagikan Bot', url=url),
     ],
-    [
-    InlineKeyboardButton('Join Channel', url=link),
-    ]]
+# Just Comment because Some reason
+        #    [InlineKeyboardButton('Join Channel', url=link),]
+    ]
     return InlineKeyboardMarkup(buttons)
 
 
