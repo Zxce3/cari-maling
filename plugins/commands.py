@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 
 @Client.on_message(filters.command('start'))
 async def start(bot, message):
-  ch = 't.me/' + CHANNEL_LINK
-    """Start command handler"""
+#  ch = 't.me/' + CHANNEL_LINK
+#    """Start command handler"""
     buttons = [[
         InlineKeyboardButton('Cari disini', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Inline mode', switch_inline_query=''),
