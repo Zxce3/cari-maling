@@ -63,6 +63,16 @@
             "value": "Telegram_files",
             "required": false
         },
+        "START_MSG": {
+          "description": "Your Start Message eg, Hai its my bot... or something else",
+          "value": "",
+          "required": true
+        },
+        "SHARE_BUTTON_TEXT": {
+          "description": "A message when someone share this bot",
+          "value": "",
+          "required": true
+        },
         "MAX_RESULTS": {
             "description": "Maximum limit for inline search results",
             "value": "10",

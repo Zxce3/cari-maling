@@ -25,10 +25,6 @@ DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 CHANNEL_LINK = environ['CHANNEL_LINK']
 # Messages
-START_MSG = """
-**Halo, Saya bot pencarian Channel @MalingIT**
+START_MSG = environ['START_MSG']
 
-Disini kalian bisa mencari file yang dikirm ke channel @MalingIT dengan tombol yang di sediakan:D
-"""
-
-SHARE_BUTTON_TEXT = 'Hai! sekarang file di @MalingIT bisa di cari menggunakan bot {username}'
+SHARE_BUTTON_TEXT = environ.get('SHARE_BUTTON_TEXT','Hi! now files in @yourchannel can be searched using bot {username}')

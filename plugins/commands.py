@@ -2,19 +2,21 @@ import os
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import START_MSG, CHANNELS, ADMINS
+from info import START_MSG, CHANNELS, ADMINS, CHANNEL_LINK
 from utils import Media
 
+link = 't.me/' + CHANNEL_LINK
 logger = logging.getLogger(__name__)
 
 
 @Client.on_message(filters.command('start'))
 async def start(bot, message):
-#  ch = 't.me/' + CHANNEL_LINK
-#    """Start command handler"""
+   """Start command handler"""
     buttons = [[
         InlineKeyboardButton('Cari disini', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Inline mode', switch_inline_query=''),
+    ],[
+        InlineKeyboardButton('Join Channel' url=link),
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(START_MSG, reply_markup=reply_markup)
