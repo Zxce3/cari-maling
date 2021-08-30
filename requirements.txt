@@ -3,3 +3,4 @@ tgcrypto
 umongo==2.3.0
 motor==2.3.0
 dnspython
+psutil
