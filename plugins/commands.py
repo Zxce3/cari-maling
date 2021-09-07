@@ -43,7 +43,7 @@ async def channel_info(bot, message):
             await message.reply(str(channel_info))
 
 
-@Client.on_message(filters.command(['total', f"start@{BOT_USERNAME}"]))
+@Client.on_message(filters.command('total'))
 async def total(bot, message):
     """Show total files in database"""
     msg = await message.reply("Lagi di Prosess...⏳", quote=True)
