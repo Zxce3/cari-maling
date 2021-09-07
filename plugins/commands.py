@@ -8,7 +8,7 @@ from utils import Media
 logger = logging.getLogger(__name__)
 
 
-@Client.on_message(filters.command(['start', f"start@{BOT_USERNAME}"]))
+@Client.on_message(filters.command('start'))
 async def start(bot, message):
 #  ch = 't.me/' + CHANNEL_LINK
 #    """Start command handler"""
