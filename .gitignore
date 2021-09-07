@@ -3,3 +3,6 @@
 
 *.session
 __pycache__
+
+info.bck
+venv

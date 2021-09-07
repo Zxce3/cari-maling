@@ -8,7 +8,7 @@ from utils import Media
 logger = logging.getLogger(__name__)
 
 
-@Client.on_message(filters.command('start'))
+@Client.on_message(filters.command(['start', f"start@{BOT_USERNAME}"]))
 async def start(bot, message):
 #  ch = 't.me/' + CHANNEL_LINK
 #    """Start command handler"""
@@ -43,7 +43,7 @@ async def channel_info(bot, message):
             await message.reply(str(channel_info))
 
 
-@Client.on_message(filters.command('total'))
+@Client.on_message(filters.command(['total', f"total@{BOT_USERNAME}"]))
 async def total(bot, message):
     """Show total files in database"""
     msg = await message.reply("Lagi di Prosess...⏳", quote=True)
